@@ -1,0 +1,2 @@
+module_boxes_google_translate_title = Souhaitez-vous afficher Google Translate
+module_boxes_google_translate_description = Affiche Google Translate

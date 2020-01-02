@@ -1,0 +1,2 @@
+module_boxes_google_translate_title = Do you want to enable Google Translate?
+module_boxes_google_translate_description = Display  Google Translate
