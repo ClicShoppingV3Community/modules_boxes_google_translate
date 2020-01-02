@@ -32,4 +32,4 @@ All informations about the ClicShopping
 See forum for all informations
 
 
-![image](https://github.com/ClicShoppingOfficialModulesV3/apps_catalog_extra_fields/blob/master/ModuleInfosJson/extrafields_admin.png)
+![image](https://github.com/ClicShoppingV3Community/modules_boxes_google_translate/blob/master/ModuleInfosJson/extrafields_admin.png)
