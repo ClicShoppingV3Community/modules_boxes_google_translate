@@ -33,7 +33,7 @@
         $this->sort_order = MODULE_BOXES_GOOGLE_TRANSLATE_SORT_ORDER;
         $this->enabled = (MODULE_BOXES_GOOGLE_TRANSLATE_STATUS == 'True');
         $this->pages = MODULE_BOXES_GOOGLE_TRANSLATE_DISPLAY_PAGES;
-        $this->group = ((MODULEOXES_GOOGLE_TRANSLATE_CONTENT_PLACEMENT == 'Left Column') ? 'boxes_column_left' : 'boxes_column_right');
+        $this->group = ((MODULE_BOXES_GOOGLE_TRANSLATE_CONTENT_PLACEMENT == 'Left Column') ? 'boxes_column_left' : 'boxes_column_right');
       }
     }
 
