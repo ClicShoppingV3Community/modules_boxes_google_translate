@@ -13,8 +13,8 @@
   use ClicShopping\OM\CLICSHOPPING;
 
   class bm_google_translate {
-    public $code;
-    public $group;
+    public string $code;
+    public string $group;
     public string $title;
     public string $description;
     public ?int $sort_order = 0;
@@ -29,7 +29,7 @@
       $this->title = CLICSHOPPING::getDef('module_boxes_google_translate_title');
       $this->description = CLICSHOPPING::getDef('module_boxes_google_translate_description');
 
-      if (defined('MODULE_BOXES_GOOGLE_TRANSLATE_STATUS')) {
+      if (\defined('MODULE_BOXES_GOOGLE_TRANSLATE_STATUS')) {
         $this->sort_order = MODULE_BOXES_GOOGLE_TRANSLATE_SORT_ORDER;
         $this->enabled = (MODULE_BOXES_GOOGLE_TRANSLATE_STATUS == 'True');
         $this->pages = MODULE_BOXES_GOOGLE_TRANSLATE_DISPLAY_PAGES;
@@ -64,7 +64,7 @@
     }
 
     public function check() {
-      return defined('MODULE_BOXES_GOOGLE_TRANSLATE_STATUS');
+      return \defined('MODULE_BOXES_GOOGLE_TRANSLATE_STATUS');
     }
 
     public function install() {
